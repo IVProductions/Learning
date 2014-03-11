@@ -1,4 +1,4 @@
-Ping.factory("stateService", function() {
+Learning.factory("stateService", function() {
     var currentWordID = 0;
 
     var functions = {};

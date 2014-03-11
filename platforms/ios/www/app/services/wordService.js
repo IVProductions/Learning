@@ -1,4 +1,4 @@
-Ping.factory('wordFactory', function() {
+Learning.factory('wordFactory', function() {
     var words = [
         {
             "id": 0,

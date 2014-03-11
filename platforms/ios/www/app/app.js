@@ -7,16 +7,16 @@ var Learning = angular.module("Learning", ["ngRoute"]).run(function() {
 <!--Routing-->
 Learning.config(function ($routeProvider){
     $routeProvider.when("/", {
-        templateUrl:"partials/splash.html",
+        templateUrl:"app/partials/splash.html",
         controller:"mainCtrl"
     }).when("/main",{
-            templateUrl:"partials/main.html",
+            templateUrl:"app/partials/main.html",
             controller:"mainCtrl"
         }).when("/splash",{
-            templateUrl:"partials/splash.html",
+            templateUrl:"app/partials/splash.html",
             controller:"mainCtrl"
         }).when("/word",{
-            templateUrl:"partials/word.html",
+            templateUrl:"app/partials/word.html",
             controller:"wordCtrl"
         }).otherwise({
             redirectTo:"/"
